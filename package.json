@@ -1,6 +1,6 @@
 {
   "name": "diffbot-node-client",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "A node api for diffbot. Just a minor rewrite of the js lib, that was connected to a browser.",
   "main": "diffbot.js",
   "directories": {

@@ -1,0 +1,27 @@
+{
+  "name": "diffbot-node-client",
+  "version": "3.0.0",
+  "description": "A node api for diffbot. Just a minor rewrite of the js lib, that was connected to a browser.",
+  "main": "diffbot.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soldotno/diffbot-js-client.git"
+  },
+  "keywords": [
+    "diffbot",
+    "node",
+    "api"
+  ],
+  "author": "Sindre Øye Svendby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soldotno/diffbot-js-client/issues"
+  },
+  "homepage": "https://github.com/soldotno/diffbot-js-client#readme"
+}

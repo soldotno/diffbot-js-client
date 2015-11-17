@@ -20,7 +20,6 @@ var DiffBot = function (token) {
 
             // Split the callback into success or failure.
             var callback = function (err, result) {
-              console.log(result);
                 if (err !== undefined) {
                     errorCallback(err);
                 }

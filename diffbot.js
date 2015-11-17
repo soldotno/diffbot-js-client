@@ -25,7 +25,7 @@ var DiffBot = function (token) {
                     errorCallback(err);
                 }
                 else {
-                    successCallback(result);
+                    successCallback(result.text);
                 }
             }
 

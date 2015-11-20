@@ -27,12 +27,15 @@ var DiffBot = function (token) {
                     successCallback(result.text);
                 }
             }
+            var agent = params.superagent || superagent;
+            delete params.superagent;
 
             var requestUrl = absoluteUrl + '?';
             for(param in params) {
               requestUrl += param + '=' + params[param] + '&';
             }
-            superagent.get(requestUrl,callback);
+
+            agent.get(requestUrl,callback);
         },
         extend: function extend(object1, object2) {
             // Append any properties set in object two onto object1

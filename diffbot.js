@@ -30,6 +30,9 @@ var DiffBot = function (token) {
             var agent = params.superagent || superagent;
             delete params.superagent;
 
+            // Encode the url parameter
+            params.url = params.url != null ? encodeURIComponent(params.url) : null;
+
             var requestUrl = absoluteUrl + '?';
             for(param in params) {
               requestUrl += param + '=' + params[param] + '&';

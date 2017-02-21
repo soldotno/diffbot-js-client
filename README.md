@@ -1,5 +1,7 @@
 # Diffbot API Node client
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/soldotno/diffbot-node-client.svg)](https://greenkeeper.io/)
+
 Unofficial node version of the [diffbot-js-client repo](https://github.com/diffbot/diffbot-js-client)
 
 ## Installation
